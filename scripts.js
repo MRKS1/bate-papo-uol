@@ -234,6 +234,7 @@ function trocarRodape() {
 
 	if (nomeSelecionado === "Todos") {
 		rodape.innerHTML = `Enviando para ${nomeSelecionado} (Público)`;
+		visibilidade = "message"
 	}
 	else {
 		rodape.innerHTML = `Enviando para ${nomeSelecionado} (${tipoMensagem})`;
