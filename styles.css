@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    font-family: "Roboto", sans-serif;
+    background-color: #F3F3F3;
+}
+
+.topo {
+    height: 80px;
+    width: 100vw;
+    background-color: white;
+    font-size: 45px;
+    padding-left: 22px;
+    padding-right: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.selecionado {
+    color: green;
+}
+
+.topo img {
+    height: 53px;
+    width: 75px;
+}
+
+.topo ion-icon:hover {
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.rodape {
+    background-color: white;
+    height: 80px;
+    width: 100vw;
+    color: #505050;
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 22px;
+    padding-right: 22px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.rodape img {
+    width: 26px;
+}
+
+.rodape img:hover {
+    cursor: pointer;
+}
+
+
+.rodape input {
+    height: 25px;
+    width: 260px;
+    border: 0px solid;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+
+::placeholder {
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+.entrou {
+    min-height: 40px;
+    background-color: #DCDCDC;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 4px;
+}
+
+.mensagemEnviada {
+    min-height: 40px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    margin-top: 4px;
+}
+
+.mensagemEnviadaPrivada {
+    min-height: 40px;
+    background-color: #ffdede;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    margin-top: 4px;
+}
+
+.data {
+    color: #aaaaaa;
+}
+
+.nomeNegrito {
+    font-weight: bold;
+    margin: 5px;
+}
+
+
+.enviar-para:hover {
+    cursor: pointer;
+}
+
+
+.popup {
+    z-index: 4;
+    height: 100vh;
+    width: 70vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+
+.lowOpacity {
+    z-index: 3;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 80%;
+}
+
+.lista-participantes {
+    max-height: 300px;
+    overflow-y: auto
+}
+
+.titulo-popup {
+    margin: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+.enviar-para {
+    margin: 12px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.enviar-para img {
+    height: 11px;
+    width: 13px;
+}
+
+.tipo-mensagem {
+    display: flex;
+    align-items: center;
+}
+
+.tipo-mensagem p {
+    font-size: 16px;
+    margin: 7px;
+}
+
+
+.opcao {
+    display: flex;
+    align-items: center;
+}
+
+.opcao p {
+    font-size: 16px;
+    margin: 7px;
+}
+
+
+.hide {
+    display: none;
+}
